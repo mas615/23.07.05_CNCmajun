@@ -1,0 +1,16 @@
+CREATE TABLE project (
+ no        INT NOT NULL AUTO_INCREMENT,
+ projectcode     VARCHAR(50),
+ projectname    VARCHAR(50),
+ newkind   VARCHAR(50),
+ oldkind    VARCHAR(50),
+ managecode    VARCHAR(50),
+ servicecode    VARCHAR(50),
+ opendate    VARCHAR(50),
+ relationcomp   VARCHAR(50),
+ managecomp    VARCHAR(50),
+ managepart    VARCHAR(50),
+ manager    VARCHAR(50),
+ managertel    VARCHAR(50),
+ PRIMARY KEY(no)
+) ENGINE=MYISAM CHARSET=utf8;
